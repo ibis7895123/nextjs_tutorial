@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Script from "next/script";
 import Layout from "../../components/layout";
+import Alert from "../../components/alert";
 
 export default function FirstPost() {
   return (
@@ -19,9 +20,10 @@ export default function FirstPost() {
 
       <h1>First Post</h1>
 
-      <h2>
-        <Link href="/">Back to home</Link>
-      </h2>
+      <Alert type="success">
+        <p>Success!!!</p>
+      </Alert>
+      <Alert type="error">Error!!!</Alert>
     </Layout>
   );
 }
