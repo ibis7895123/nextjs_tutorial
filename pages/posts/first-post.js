@@ -18,7 +18,9 @@ export default function FirstPost() {
         }}
       />
 
-      <h1>First Post</h1>
+      <h1 className="rounded-2xl bg-slate-300 p-2 dark:bg-slate-500">
+        First Post
+      </h1>
 
       <Alert type="success">
         <p>Success!!!</p>
